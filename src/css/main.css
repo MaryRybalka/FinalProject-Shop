@@ -1,0 +1,254 @@
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: left;
+  flex-direction: row;
+  width: 100%;
+  height: calc( 100vh + -16px );
+  min-width: 1904px;
+  min-height: 900px;
+}
+
+#menu{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  background: #523139;
+  width: 15%;
+  height: 100%;
+  z-index: 1;
+  box-shadow: 1px 2px 20px 0;
+}
+
+#main-page-inf{
+  display: flex;
+  align-items: center;
+  /*justify-content: space-evenly;*/
+  justify-items: center;
+  flex-direction: column;
+  background: #f3f2ff;
+  width: 85%;
+  height: 100%;
+}
+
+#hat{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  margin-bottom: 6vh;
+}
+
+#title{
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-stretch: extra-expanded;
+}
+
+#cart-patch{
+  width: 6%;
+  height: 20%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#cart{
+  width: 100%;
+  height: 100%;
+}
+
+#cart-patch:hover{
+  background: #d3d0f2;
+}
+
+#articles{
+  width: 97%;
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#milk{
+  width: 100%;
+  height: 6%;
+}
+
+#article-for-m, #article-for-w,#article-for-g{
+  cursor: pointer;
+  padding: 10px;
+  width: 96%;
+  height: 40%;
+  margin-top: 30px;
+}
+
+#article-for-m:hover, #article-for-w:hover, #article-for-g:hover{
+  background: #855660;
+}
+
+.active{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.name{
+  font-size: x-large;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#grid{
+  display: flex;
+  /*align-items: center;*/
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 89%;
+  height: 70%;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  /*width: 20vh;*/
+  /*height: 30vh;*/
+  width: 15%;
+  height: 46%;
+  /*border: 2px black solid;*/
+  background: #e7e6ff;
+  border-radius: 5px;
+}
+
+.item:hover{
+  width: 17%;
+  height: 50%;
+  z-index: 1;
+  box-shadow: 3px 6px 20px 0;
+}
+
+.item-pic{
+  width: 80%;
+  height: 54%;
+  border-radius: 5px;
+  margin: 10%;
+}
+
+.item-description{
+  width:  85%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  cursor: context-menu;
+  font-size: 82%;
+  font-style: italic;
+  font-weight: bold;
+  justify-content: flex-end;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.staff-inf{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+  width: 100%;
+  margin: 9px;
+}
+.staff-inf-text{
+  display: flex;
+  /*align-items: center;*/
+  justify-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  width: 50%;
+  height: 100%;
+}
+
+.staff-inf-add{
+  width: 23%;
+  height: 75%;
+  cursor: pointer;
+}
+
+#field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: whitesmoke;
+  width: 72vh;
+  height: 72vh;
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+#row-0,#row-1,#row-2,#row-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 25%;
+}
+
+#cell-0,#cell-1,#cell-2,#cell-3,#cell-4,#cell-5,#cell-6,#cell-7,#cell-8,#cell-9,#cell-10,#cell-11,#cell-12,#cell-13,#cell-14,#cell-15{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+#finger-1{
+  width: 84%;
+  height: 74%;
+}
+#finger-2{
+  width: 84%;
+  height: 74%;
+  transform: rotate(90deg);
+}
+#finger-3{
+  width: 84%;
+  height: 74%;
+  transform: rotate(180deg);
+}
+#finger-4{
+  width: 84%;
+  height: 74%;
+  transform: rotate(270deg);
+}
+
+#result{
+  display:none;
+  align-items: center;
+  justify-content: center;
+  background: #f7fbff;
+  width: 77vh;
+  height: 77vh;
+  border: 2px solid black;
+  border-radius: 10vh;
+  font-size: xxx-large;
+  font-style: oblique;
+  flex-direction: column;
+}
+
+#res-im{
+  width: 70%;
+  height: 70%;
+}

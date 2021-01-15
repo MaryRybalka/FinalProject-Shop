@@ -1,0 +1,98 @@
+{"items": [
+  {
+    "img": "img/dogs/1.jpg",
+    "description": "Holiday boy.",
+    "numbers": "5",
+    "code": "FDH123123",
+     "price": "5",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/2.jpg",
+    "description": "Smart boy.",
+    "numbers": "0",
+    "code": "FDH543123",
+    "price": "10",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/3.jpg",
+    "description": "Drunken boy.",
+    "numbers": "1",
+    "code": "FDH1231543",
+    "price": "11",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/4.jpg",
+    "description": "Sus boy.",
+    "numbers": "5",
+    "code": "FDK654523",
+    "price": "200",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/5.jpg",
+    "description": "Sport boy",
+    "numbers": "25",
+    "code": "FSH123790",
+    "price": "21",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/6.jpg",
+    "description": "Chill boy.",
+    "numbers": "51",
+    "code": "SSS123123",
+    "price": "33",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/7.jpg",
+    "description": "Guitar boy",
+    "numbers": "5",
+    "code": "GGG123123",
+    "price": "11",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/8.jpg",
+    "description": "Uhh boy.",
+    "numbers": "512",
+    "code": "FDH876543",
+    "price": "11",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/9.jpg",
+    "description": "Danger boy.",
+    "numbers": "0",
+    "code": "FHQ123123",
+    "price": "13",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/10.jpg",
+    "description": "Just good boy.",
+    "numbers": "5",
+    "code": "FHD125423",
+    "price": "11",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/11.jpg",
+    "description": "Oh my.",
+    "numbers": "5",
+    "code": "FDH123155",
+    "price": "14",
+     "added": "0"
+  },
+  {
+    "img": "img/dogs/12.jpg",
+    "description": "Are you listening me, Neo?",
+    "numbers": "34",
+    "code": "FDH555555",
+    "price": "11",
+     "added": "0"
+  }]
+}
